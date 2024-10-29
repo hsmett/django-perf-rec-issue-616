@@ -1,0 +1,4 @@
+TestIssue616.test_issue616:
+- db: INSERT INTO "issue616_entity" ("description") VALUES (#) RETURNING "issue616_entity"."id"
+TestIssue616.test_issue616.2:
+- db: INSERT INTO "issue616_entity" ("description") VALUES (E#) RETURNING "issue616_entity"."id"

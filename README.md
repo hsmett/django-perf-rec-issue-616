@@ -1,1 +1,5 @@
-# django-perf-rec-issue-616
+# Issue 616
+
+```
+python issue/manage.py test --settings=issue.custom_settings
+```
